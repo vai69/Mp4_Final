@@ -1,0 +1,9 @@
+.bill_btn{
+    background-color:green;
+    color: azure;
+    font-size: 25px;
+    padding: 5px 25px 5px 25px;
+    border: 2px solid white;
+    border-radius: 20px;
+    float: right;
+}

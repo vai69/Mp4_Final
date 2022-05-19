@@ -1,0 +1,32 @@
+.graph-gr{
+      margin-top: 5%;
+      align-items: center; 
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+  }
+
+.dist-gr{
+  width: 60%;
+  height:auto;
+}
+.ven-gr{
+  width: 60%;
+  height:auto;
+}
+.download-btn{
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 10px 40%;
+  color:white;
+  background-color: rgb(31, 27, 27);
+  box-shadow: 5px 5px gray;
+}
+
+h2{
+  text-align: center;
+}
+
+.App{
+  margin-bottom: 20px;
+}

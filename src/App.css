@@ -1,0 +1,41 @@
+* {
+    top:30%;
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+      background-color: lightgrey;
+    float: left;
+    width: 30%;
+    padding: 30px;
+    margin-top:14%;
+    margin-left: 14%;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+      
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .crd{
+    
+      padding:5%;
+      text-align:center;
+      border: 1px solid grey;
+      border-radius: 20px;
+      box-shadow: 10px 10px grey;
+  }
+
+  .bt{
+      font-size: 20px;
+      border-radius: 10px;
+      padding: 15px;
+      color:white;
+      background-color: black;
+      box-shadow: 5px 5px grey;
+  }
